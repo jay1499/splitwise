@@ -38,5 +38,5 @@ docker exec -it <postgresql container id> psql -U compose-postgres
 
 ## POSTMAN COLLECTION
 
-You can find an Postman collection here [here](https://gist.github.com/jay1499/daabfdc6346eab3e74322cf4806e0312).
+You can find Postman collection here [here](https://gist.github.com/jay1499/daabfdc6346eab3e74322cf4806e0312).
 
