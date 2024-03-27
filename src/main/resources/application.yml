@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/splitwise
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    locations: classpath:db/migrations
+
+
+
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
+# OpenAPI Properties
+springdoc:
+  api-docs:
+    swagger-ui:
+      path: /swagger-ui.html
+      enabled: true
